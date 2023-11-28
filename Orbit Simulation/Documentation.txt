@@ -1,0 +1,34 @@
+Problem Statement
+Creating a visual simulation of the moon orbiting a planet which also orbits around a sun using OpenGL.
+
+
+Solution Overview
+The solution involves initializing a Pygame window and using OpenGL for rendering.
+It consists of functions to handle rendering, mouse clicks events, keyboard inputs events and the main loop which updates and displays the simulation.
+
+
+Steps Taken
+-Initializing Pygame and OpenGL
+
+-Setting up the display window using Pygame
+
+-Configuring OpenGL states for rendering
+
+-Defining Variables and Constants
+
+-Setting up variables for day length, angles, distances and speeds
+
+-Drawing Spheres and Orbit Paths
+
+-Implementing functions to draw spheres representing the sun, planet, and moon
+
+-Adding a function to draw the orbit path (circle) for the planet
+
+-Rendering Functions
+
+-Continuously updates angles for the planet and moon based on time and day length
+
+Calls the display() function to render the simulation
+
+Conclusion
+The implemented solution utilizes Pygame and OpenGL to visualize a moon orbiting a planet, which in turn orbits around a sun. It incorporates functions for rendering, user interaction, and orbit path drawing, allowing for interactive visualization of celestial bodies' orbits.
