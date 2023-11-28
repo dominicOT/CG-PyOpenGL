@@ -20,7 +20,7 @@ This Python program is a simple simulation of a planet (earth) and its moon orbi
 
 3. Run the program using Python:
 
-` python orbit_simul.py `
+` python main.py `
 
 
 
